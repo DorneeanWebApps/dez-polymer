@@ -1,0 +1,9 @@
+build/
+node_modules/
+test/integration/screenshots-current/
+_site/
+fonts/
+.DS_Store
+images/technology-wheel-chain-bicycle-steel-repair-1326046-pxhere.com.jpg
+images/motor.jpg
+images/boxes.jpg

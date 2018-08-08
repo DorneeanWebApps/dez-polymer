@@ -1,0 +1,10 @@
+{
+    "appUsersConnection": "mongodb://localhost:27017/busdezdata",
+    "busDezDataConnection": "mongodb://localhost:27017/busdezdata",
+    "superUserConnection": "mongodb://localhost:27017/dorneeandata",
+    "busDezComponents": "mongodb://localhost:27017/busdezsetup",
+    "dorneeanDataConnection": "mongodb://localhost:27017/dorneeandata",
+    "workDataConnection": "mongodb://localhost:27017/dorneeandata",
+    "apiUrl": "localhost:4000",
+    "secret": "Dorneean BusDez by Nelutu Budai"
+}

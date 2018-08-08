@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>JS Bin</title>
+
+</head>
+
+<body>
+    <style>
+        #container {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        #header {
+            height: auto;
+            flex: 0 0 auto;
+        }
+        
+        #content-wrapper {
+            background-color: yellow;
+            flex: 1 0 auto;
+            display: flex;
+        }
+        
+        #content-container {
+            width: 100%;
+            display: grid;
+            grid-gap: 10px;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        
+        #content-container div:nth-child(even) {
+            background-color: green;
+        }
+        
+        #content-container div:nth-child(odd) {
+            background-color: red;
+        }
+        
+        #footer {
+            height: 4em;
+            background-color: black;
+            flex: 0 0 auto;
+        }
+    </style>
+
+    <div id="container">
+        <div id="header">
+            <div> header </div>
+            <div> header </div>
+            <div> header </div>
+            <div> header </div>
+            <div> header </div>
+            <div> header </div>
+            <div> header </div>
+        </div>
+        <div id="content-wrapper">
+            <div id="content-container">
+                <div>d</div>
+                <div>c</div>
+                <div>b</div>
+                <div>a</div>
+            </div>
+        </div>
+        <div id="footer">footer</div>
+
+    </div>
+</body>
+
+</html>

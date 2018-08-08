@@ -1,0 +1,86 @@
+{
+    "/": {
+        "src/components/my-app.js": {
+            "type": "script",
+            "weight": 1
+        },
+        "src/components/my-home.js": {
+            "type": "script",
+            "weight": 1
+        },
+        "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+            "type": "script",
+            "weight": 1
+        }
+    },
+    "/acasa": {
+        "src/components/my-app.js": {
+            "type": "script",
+            "weight": 1
+        },
+        "src/components/my-home.js": {
+            "type": "script",
+            "weight": 1
+        },
+        "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+            "type": "script",
+            "weight": 1
+        }
+    },
+    "/cautare": {
+        "src/components/my-app.js": {
+            "type": "script",
+            "weight": 1
+        },
+        "src/components/my-search.js": {
+            "type": "script",
+            "weight": 1
+        },
+        "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+            "type": "script",
+            "weight": 1
+        }
+    },
+    "/vehicule": {
+        "src/components/my-app.js": {
+            "type": "script",
+            "weight": 1
+        },
+        "src/components/my-vehicles.js": {
+            "type": "script",
+            "weight": 1
+        },
+        "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+            "type": "script",
+            "weight": 1
+        }
+    },
+    "/piese": {
+        "src/components/my-app.js": {
+            "type": "script",
+            "weight": 1
+        },
+        "src/components/my-parts.js": {
+            "type": "script",
+            "weight": 1
+        },
+        "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+            "type": "script",
+            "weight": 1
+        }
+    },
+    "/contact": {
+        "src/components/my-app.js": {
+            "type": "script",
+            "weight": 1
+        },
+        "src/components/my-contact.js": {
+            "type": "script",
+            "weight": 1
+        },
+        "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+            "type": "script",
+            "weight": 1
+        }
+    }
+}
